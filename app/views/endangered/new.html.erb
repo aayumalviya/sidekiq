@@ -1,0 +1,19 @@
+<center>
+<%= form_with model: @shark do |form| %>
+<div>
+<%= form.label :Name %>
+<%= form.text_field :name %>
+</div>
+<br><br>
+
+<div>
+<%= form.label :Iucn %>
+<%= form.text_field :iucn %>
+</div>
+<br><br>
+
+<div>
+<%= form.submit %>
+</div>
+<% end %>
+</center>
